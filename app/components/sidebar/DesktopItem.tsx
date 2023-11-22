@@ -24,9 +24,6 @@ const DesktopItem: React.FC<DesktopItemProps> = ({
             return onClick();
         }
     };
-
-
-
     return (
         <li onClick={handleClick}>
             <Link href={href}
@@ -35,16 +32,16 @@ const DesktopItem: React.FC<DesktopItemProps> = ({
             group
             flex
             gap-x-3
-            rounded-md
+            rounded-full
             p-3
             text-sm
             leading-6
             font-semibold
             text-stone-800
             hover:text-black
-            hover:bg-stone-500
+            hover:bg-stone-400
             `,
-            active && 'bg-stone-400 text-black'
+            active && 'bg-stone-600 text-stone-200'
             )}
             >
                 <Icon className="h-6 w-6 shrink-0" />

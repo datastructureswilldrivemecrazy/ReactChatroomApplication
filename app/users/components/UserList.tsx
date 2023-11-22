@@ -6,8 +6,6 @@ interface UserListProps{
     items: User[]
 }
 
-
-
 const UserList: React.FC<UserListProps> = ({
 items
 }) => {

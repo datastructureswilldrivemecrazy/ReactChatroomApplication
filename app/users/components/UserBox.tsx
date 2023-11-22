@@ -55,7 +55,7 @@ const UserBox: React.FC<UserBoxProps> = ({
                     mb-1
                     ">
                         <p className="
-                        text-sm
+                        text-base
                         font-medium
                         text-stone-800
                         ">

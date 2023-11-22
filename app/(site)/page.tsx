@@ -10,7 +10,7 @@ export default function Home() {
       py-12
       sm:px-6
       lg:px-8
-      bg-stone-300
+      bg-stone-200
       ">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
             <Image
@@ -26,7 +26,7 @@ export default function Home() {
             text-3xl
             font-bold
             tracking-tight
-            text-gray-800
+            text-slate-800
             ">
                 Sign in to your account.
             </h2>
