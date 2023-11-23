@@ -100,7 +100,7 @@ formState:{
             bg-stone-100
             px-4
             py-8
-            shadow
+            shadow-xl
             sm:rounded-lg
             sm:px-10
             ">
